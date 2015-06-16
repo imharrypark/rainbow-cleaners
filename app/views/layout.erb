@@ -88,8 +88,8 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Eco-friendly</h2>
                     <hr class="light">
-                    <p class="text-faded">We only use 100% organic solvents that are virtually non-toxic because we care about you and the environment. </p>
-                    <a href="#" class="btn btn-default btn-xl">Read More</a>
+                    <p class="text-faded">We only use 100% organic solvents that are virtually non-toxic (non-perc*) because we care about you and the environment.</p>
+                    <a href="https://www.youtube.com/watch?v=cyJx0xRxhAM" class="btn btn-default btn-xl" target="_blank">Learn More</a>
                 </div>
             </div>
         </div>
@@ -281,10 +281,9 @@
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
-              <div class="rl">
-              </div>
+            <div class="rl"></div>
           </div>
-      </div>
+        </div>
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
@@ -304,40 +303,38 @@
                   <p>Delicate fabric</p>
                   <p>...and many more.</p>
                 </div>
-                  <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
-                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $('.map').click(function () {
+              $('.map iframe').css("pointer-events", "auto");
+          });
+          $('.map').on('mouseleave', function(){
+              $('.map iframe').css("pointer-events", "none")
+          })
+      });
+  </script>
 
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.map').click(function () {
-                $('.map iframe').css("pointer-events", "auto");
-            });
-            $('.map').on('mouseleave', function(){
-                $('.map iframe').css("pointer-events", "none")
-            })
-        });
-    </script>
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/wow.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/creative.js"></script>
 
 </body>
 
