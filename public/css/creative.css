@@ -178,7 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header3.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -473,4 +473,30 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+
+.map {
+    height: 700px;
+    width: 70%;
+    margin: 0 auto;
+    /*display: inline;*/
+}
+
+.map iframe {
+    pointer-events: none;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+#contact {
+    margin-top: 0;
+}
+
+.location {
+    margin-top: 100px;
 }
